@@ -1,29 +1,106 @@
 /*In the body tag, we set styles for the whole web page. Usually we use this space for setting the base fonts, background colors,  */
 body {
-
+    background-color: blanchedalmond;
+    color:#C670FF;
 }
 
 /* this wrapper let's us move the content away from the edges of the browser. */
 #wrapper {
-
+    max-width: 1020px;
+    margin: 0 auto;
 }
 
 /* Let's style the header */
 header {
-
+    
+    background-color: #F5FFCD;
+    font-family: cursive;
+    white-space: nowrap;
 }
 
+footer {
+    
+    
+}
+nav {
+    flex: 50%;
+    display: flex;
+  }
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
 
 header h1{
+    font-size: xx-large;
+    animation: animate 
+        5s linear;
+}
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
 
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 /* Now let's create two columns for the main content */
 main {
-
+    display: flex;
 }
 article {
+    font-family: monospace;
+    background-color:#F5FFCD;
+}
+
+article img{
+    width: 85%;
+    display:block;
+    margin:0 auto;
+}
+
+h2 {
+    text-decoration: underline;
+}
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+figure {
 
 }
 
+h3{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+
+}
+
+h4{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    
+}
 aside {
+    background-color: #F5FFCD;
+    text-align: left; 
 }
